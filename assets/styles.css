@@ -1,0 +1,88 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    background-color: #000000;
+}
+
+#menu {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 25% 0;
+}
+
+#redes li {
+    margin: 0 10px;
+}
+
+section {
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    background-position: center;
+    background-size: 650px;
+    border: none;
+    width: 500px;
+    height: 350px;
+}
+
+#album-dive {
+    background-image: url('images/album-dive.png');
+}
+
+#album-vibe {
+    background-image: url('images/album-vibe.png');
+}
+
+#album-modern {
+    background-image: url('images/album-modern.png');
+}
+
+.musicas {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+figure img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.musicas-playlist1 a {
+    text-decoration: none;
+    color: #d9d9d9;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+}
+
+.rodape {
+    text-align: center;
+    color: #d9d9d9;
+}

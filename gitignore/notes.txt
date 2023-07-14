@@ -1,0 +1,3 @@
+bugs dia 15/06:
+
+sempre que coloco algum margin, fica com o tamanho do espaço todo em branco.
